@@ -16,10 +16,10 @@ def button_click():
         data = f'{ration.return_x()} {action} {ration.return_y()} = {result}'
         log.logger(data)
     else:
-        a = int(view.get_value())
-        b = int(view.get_value())
-        c = int(view.get_value())
-        d = int(view.get_value())
+        a = float(view.get_value())
+        b = float(view.get_value())
+        c = float(view.get_value())
+        d = float(view.get_value())
         action = view.get_operation()
         compl.init(a, b, c, d)
         result = compl.do_it(action)

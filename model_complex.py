@@ -39,9 +39,11 @@ def do_it(action):
         return do_sub()
     elif action == '*':
         return do_mult()
-    else:
+    elif action == '/':
         return do_div()
+    else:
+        return "Error!"
 
 
 def round_complex(z):
-    return complex(round(z.real, 3), round(z.imag, 3))
+    return complex(round(z.real, 5), round(z.imag, 5))
