@@ -5,7 +5,7 @@
 
 ## Исполнители: ##
 
-model_complex - Евгений
+model_complex - Евгений Хозин
 
 model_rational - Назим Гасанов
 
